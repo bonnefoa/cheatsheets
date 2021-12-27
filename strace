@@ -1,0 +1,2 @@
+# strace all write, truncate to 3000 characters
+strace -f -s3000 -e trace=write -t

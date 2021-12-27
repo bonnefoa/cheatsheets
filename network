@@ -1,0 +1,4 @@
+# ss
+apt install iproute2 -y
+# netstat
+apt install net-tools -y

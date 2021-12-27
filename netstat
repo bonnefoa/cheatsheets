@@ -1,0 +1,2 @@
+# TcpExt stats
+cat /proc/net/netstat | grep TcpExt  | awk -F' ' '(NR==1) {for (i=1; i<NF;i++)l[i]=$i} (NR == 2){for (i=1; i<NF;i++) print l[i],$i}'
