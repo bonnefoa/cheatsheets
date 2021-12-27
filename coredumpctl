@@ -1,0 +1,2 @@
+# Start cgdb session
+sudo coredumpctl debug --debugger=cgdb

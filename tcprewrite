@@ -1,0 +1,5 @@
+tcprewrite --enet-mac-seed=44 --dlt=enet -s 4 -i connection_with_gap_.pcap -o connection_with_gap.pcap
+
+tcprewrite --enet-mac-seed=44 --dlt=enet -s 4 -i connection_with_gap_.pcap -o connection_with_gap.pcap -m 250 --mtu-trunc
+
+tcprewrite --enet-mac-seed=44 --dlt=enet --seed=9 -i connection_with_gap_.pcap -o connection_with_gap.pcap -m 250 --mtu-trunc

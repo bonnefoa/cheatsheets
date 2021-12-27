@@ -1,0 +1,2 @@
+# Start flowstat
+make -j && sudo setcap cap_net_raw,cap_net_admin=eip src/flowstats && src/flowstats -i any
